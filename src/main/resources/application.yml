@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-service
+server:
+  port: 9500 #服务在服务器上面的启动端口，自定义
+
+eureka:
+  instance:
+    hostname: localhost
+  #prefer-ip-address: true # 注册服务的时候使用服务的ip地址
+  client:
+    register-with-eureka: false #禁止自己注册自己
+    fetch-registry: false #禁止检索服务
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #注册服务对外的接口
+
