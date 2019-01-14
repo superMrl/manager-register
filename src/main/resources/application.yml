@@ -1,6 +1,11 @@
 spring:
+  profiles:
+    active: local
+---
+spring:
+  profiles: local
   application:
-    name: eureka-service
+    name: manager-eureka-service
 server:
   port: 9500 #服务在服务器上面的启动端口，自定义
 
