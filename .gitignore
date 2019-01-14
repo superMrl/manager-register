@@ -1,5 +1,5 @@
 /target/
-!.mvn/wrapper/maven-wrapper.jar
+#!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -12,12 +12,12 @@
 
 ### IntelliJ IDEA ###
 .idea
-.mvn
+.mvnw
+.mvnw.cmd
 *.iws
 *.iml
 *.ipr
-*.mvnw
-*.mvnw.cmd
+
 
 
 ### NetBeans ###
@@ -27,3 +27,4 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/.mvn/
