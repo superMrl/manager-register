@@ -12,8 +12,8 @@
 
 ### IntelliJ IDEA ###
 .idea
-.mvnw
-.mvnw.cmd
+*.mvnw
+*.mvnw.cmd
 *.iws
 *.iml
 *.ipr
